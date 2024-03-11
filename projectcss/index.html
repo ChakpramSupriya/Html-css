@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports shop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="logo">
+           <p>Sportify</p>   
+        </div>
+
+        <nav class="nav">
+            <ul id="nav">
+                <a>
+                    <li href="#">Home</li>
+                </a>
+                <a>
+                    <li href="#">Categories</li>
+                </a>
+                <a>
+                    <li href="#">Products</li>
+                </a>
+                <a>
+                    <li href="#">Contact</li>
+                </a>   
+            </ul>
+        </nav>
+    </header>
+    <!-- banner -->
+    <section class="banner">
+        <div class="slider">
+            <div class="overlay">
+                <div class="details">
+                    <p>All your <span class="highlight">sports</span> needs at one place.</p>
+                    <button class="main_bt">Explore now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- categories -->
+    <section class="categories">
+        <h1 class="section_title">Featured categories</h1>
+        <div class="content">
+            <div class="category">
+                <div class="cat_details">
+                    For boy running
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat_details">
+                    For men basketball
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat_details">
+                    For men golf
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat_details">
+                    For girl ball
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="products">
+        <h1 class="section_title">New Products</h1>
+        <div class="products_content">
+
+            <div class="product">
+                <div class="product_img">
+                    <img src="./images/p1.webp" alt="dress">
+                </div>
+                <div class="product_details">
+                    <h1>Dumbells</h1>
+                    <p>Because we need the current value of state, we pass a function into our setCar function. This function receives the previous value.</p>
+                    <h2>$29000</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_img">
+                    <img src="./images/p2.jpeg" alt="shirt">
+                </div>
+                <div class="product_details">
+                    <h1>Dumbells</h1>
+                    <p>Because we need the current value of state, we pass a function into our setCar function. This function receives the previous value.</p>
+                    <h2>$2999</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_img">
+                    <img src="./images/p3.webp" alt="glass">
+                </div>
+                <div class="product_details">
+                    <h1>Dumbells</h1>
+                    <p>Because we need the current value of state, we pass a function into our setCar function. This function receives the previous value.</p>
+                    <h2>$298</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_img">
+                    <img src="./images/p4.webp" alt="glass">
+                </div>
+                <div class="product_details">
+                    <h1>Dumbells</h1>
+                    <p>Because we need the current value of state, we pass a function into our setCar function. This function receives the previous value.</p>
+                    <h2>$2998</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <img src="./images/banner2.jpeg" alt="product">
+                </div>
+                <div class="product_details">
+                    <h1>Dumbells</h1>
+                    <p>Because we need the current value of state, we pass a function into our setCar function. This function receives the previous value.</p>
+                    <h2>$2998</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        window.onscroll=function(){
+           if(window.scrollY>=100)
+           {
+            document.getElementById('header').style.backgroundColor="white";
+            document.getElementById('nav').style.color="black";
+            document.getElementById('header').style.boxShadow="0 0 10px gray";
+           }
+           else{
+            document.getElementById('header').style.backgroundColor="transparent";
+            document.getElementById('nav').style.color="white";
+            document.getElementById('header').style.boxShadow="none";
+           }
+        }
+    </script>
+</body>
+</html>
